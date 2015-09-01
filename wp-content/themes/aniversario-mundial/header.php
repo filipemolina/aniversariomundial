@@ -27,7 +27,7 @@
 
 			<div class="navbar-header">
 
-				<a class="navbar-brand" href="#"><img alt="Brand" src="..."></a>
+				<a class="navbar-brand" href="#"><img alt="Logo" src="<?php bloginfo('template_url'); ?>"></a>
 
 			</div>
 
