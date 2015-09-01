@@ -5,3 +5,24 @@ Author URI: https://3aworldwide.com.br/
 Description: Hotsite de Aniversário dos Supermercados Mundial
 Version: 1.0
 */
+
+/************************************************** Fontes */
+
+.openSans { font-family: 'Open Sans'; }
+
+/************************************************** Cores */
+
+.branca { color: #fff !important; }
+
+/************************************************** Menu */
+
+.navbar-inverse
+{
+	border-radius: 0;
+}
+
+.navbar-brand
+{
+	height: auto;
+	padding: 5px;
+}
