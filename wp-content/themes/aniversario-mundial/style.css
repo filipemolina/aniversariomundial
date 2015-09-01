@@ -1,10 +1,73 @@
 /*
-Theme Name: Aniversário Mundial
+Theme Name: AniversÃ¡rio Mundial
 Author: 3A Worldwide
 Author URI: https://3aworldwide.com.br/
-Description: Hotsite de Aniversário dos Supermercados Mundial
+Description: Hotsite de AniversÃ¡rio dos Supermercados Mundial
 Version: 1.0
 */
+
+/* ----- Footer ----- */
+
+.facebook_footer{
+	background: url('img/sprite.png') 0 72px;
+	width: 37px;
+	display: block;
+	height: 37px;
+	float: left;
+}
+.facebook_footer:hover{
+	background: url('img/sprite.png') -37px 72px;
+	width: 37px;
+	display: block;
+	height: 37px;
+	float: left;
+}
+
+.twitter_footer{
+	background: url('img/sprite.png') -74px 72px;
+	width: 37px;
+	display: block;
+	height: 37px;
+	float: left;
+	margin-left: 20px;
+}
+.twitter_footer:hover{
+	background: url('img/sprite.png') -111px 72px;
+	width: 37px;
+	display: block;
+	height: 37px;
+	float: left;
+}
+.instagram_footer{
+	background: url('img/sprite.png') -148px 72px;
+	width: 37px;
+	display: block;
+	height: 37px;
+	float: left;
+	margin-left: 20px;
+}
+.instagram_footer:hover{
+	background: url('img/sprite.png') -185px 72px;
+	width: 37px;
+	display: block;
+	height: 37px;
+	float: left;
+}
+.copyright p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+	margin-top: 30px;
+}
+.logo_footer{
+	padding-left: 80px;	
+}
+.social{
+	margin-top: 16px;
+}
+
+/*------- end Footer -------*/
 
 /************************************************** Fontes */
 
