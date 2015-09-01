@@ -16,3 +16,25 @@ Version: 1.0
 }
 
 /*------- end Footer -------*/
+
+/************************************************** Fontes */
+
+.openSans { font-family: 'Open Sans'; }
+
+/************************************************** Cores */
+
+.branca { color: #fff !important; }
+
+/************************************************** Menu */
+
+.navbar-inverse
+{
+	border-radius: 0;
+}
+
+.navbar-brand
+{
+	height: auto;
+	padding: 5px;
+}
+

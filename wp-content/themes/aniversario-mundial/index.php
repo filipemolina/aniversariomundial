@@ -20,8 +20,8 @@
 
 	<?php include('sections/downloads.php'); ?>
 
-	<!-- Making Off -->
+	<!-- Making Of -->
 
-	<?php include('sections/making-off.php'); ?>
+	<?php include('sections/making-of.php'); ?>
 
 <?php get_footer(); ?>
