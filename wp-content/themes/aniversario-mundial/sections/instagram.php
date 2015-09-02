@@ -16,11 +16,11 @@
 
 	<div class="fotos">
 
-		<div class="container">
+		<div class="container-fluid">
 				
 			<div class="row">
 				
-				<div class="foto">
+				<!-- <div class="foto">
 					<img class="img-responsive" src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11350978_936571036402917_744554834_n.jpg" alt="">
 				</div>
 
@@ -38,7 +38,7 @@
 
 				<div class="foto">
 					<img class="img-responsive" src="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s320x320/e35/11199363_1621584828129582_862764270_n.jpg" alt="">
-				</div>
+				</div> -->
 
 
 			</div>
