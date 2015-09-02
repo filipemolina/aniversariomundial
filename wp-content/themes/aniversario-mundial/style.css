@@ -145,22 +145,30 @@ div.banner h2
     margin-left: 39px;
 }
 
-span.small 
+div.small 
 {
     font-size: 20px;
     margin-top: 30px;
-    display: block;
     float: left;
     margin-left: 18px;
 }
 
-span.centavos 
+div.centavos 
 {
-    font-size: 38px;
-    margin-top: -76px;
-    display: block;
     float: left;
-    margin-left: 123px;
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+div.reais 
+{
+	float: left;
+    /*margin-left: 5px;*/
+}
+
+div.virgula 
+{
+	float: left;
 }
 
 .nome .titulo 

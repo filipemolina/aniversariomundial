@@ -6,7 +6,7 @@ jQuery(function(){
 
 	$('.slider').fractionSlider({
 		'fullWidth': 			true,
-		'controls': 			false, 
+		'controls': 			true, 
 		'pager': 				false,
 		'responsive': 			true,
 		'dimensions': 			"1170,685",

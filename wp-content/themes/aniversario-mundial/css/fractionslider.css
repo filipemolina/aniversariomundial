@@ -42,23 +42,26 @@
 .fraction-slider .prev,
 .fraction-slider .next{
 	display: block;
-	position:absolute;
-	width: 25px; 
-	height: 30px;
-	z-index:9999;
+    position: absolute;
+    width: 49px;
+    height: 48px;
+    z-index: 9999;
 }
 
 .fraction-slider .prev{
-	left: -180px; top:45%;
-	background:url(images/fs.prevnext.png) 0px 0px no-repeat transparent;
-	
+	top: 45%;
+    background: url(../img/banner/prev.png) no-repeat;
+    background-size: 60px;
+    background-position: -7px -8px;
 }
 
 
 .fraction-slider .next{
-	right: -180px; 
-	top: 45%;
-	background: url(images/fs.prevnext.png) -35px 0px no-repeat transparent;
+	right: 0;
+    top: 45%;
+    background: url(../img/banner/next.png) no-repeat;
+    background-size: 60px;
+    background-position: -5px -6px;
 }
 
 .fraction-slider:hover .prev,
