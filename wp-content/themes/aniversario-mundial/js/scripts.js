@@ -1,3 +1,11 @@
+function Log(dados)
+{
+	for(foto in dados.data)
+	{
+		console.log(dados.data[foto]);
+	}
+}
+
 jQuery(function(){
 
 	// Retornar o jQuery para a sua utilização normal

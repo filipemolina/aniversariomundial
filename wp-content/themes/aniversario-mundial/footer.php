@@ -25,6 +25,8 @@
 
 	<script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
 
+	<script src="https://api.instagram.com/v1/tags/trabalho/media/recent?client_id=5e3ffdba6bf04f0a8840a7ce98e57223&callback=Log"></script>
+
 </body>
 </html>
 
