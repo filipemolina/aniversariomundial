@@ -2,7 +2,7 @@ function Log(dados)
 {
 	for(foto in dados.data)
 	{
-		console.log(dados.data[foto]);
+		console.log(dados.data[foto].images.standard_resolution.url);
 	}
 }
 
