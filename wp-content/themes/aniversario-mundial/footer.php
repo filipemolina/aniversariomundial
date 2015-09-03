@@ -1,4 +1,10 @@
+<?php  
 
+	// Hashtag que será usada para pesquisar as fotos no Instagram (sem o '#')
+
+	$hashTag = 'mundial';
+
+?>
 
 <footer>
 	<div class="container">
@@ -25,7 +31,7 @@
 
 	<script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
 
-	<script src="https://api.instagram.com/v1/tags/mundial/media/recent?client_id=5e3ffdba6bf04f0a8840a7ce98e57223&callback=Log"></script>
+	<script src="https://api.instagram.com/v1/tags/<?php echo $hashTag; ?>/media/recent?client_id=5e3ffdba6bf04f0a8840a7ce98e57223&callback=Log"></script>
 
 </body>
 </html>
