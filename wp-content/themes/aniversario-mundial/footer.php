@@ -7,6 +7,9 @@
 ?>
 
 <footer>
+	
+	<div class="linha-preta"></div>
+
 	<div class="container">
 		<div class="social col-md-3">
 			<a class="facebook_footer" href="#"></a>
