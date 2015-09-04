@@ -219,6 +219,14 @@ div.virgula
     margin-top: -5px;
 }
 
+/************************************************** Vídeo */
+
+div.video
+{
+    float: left;
+    width: 100%;
+}
+
 /************************************************** Instagram */
 
 .instagram .listra-laranja 
