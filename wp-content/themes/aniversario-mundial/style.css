@@ -6,7 +6,14 @@ Description: Hotsite de AniversÃ¡rio dos Supermercados Mundial
 Version: 1.0
 */
 
+body
+{
+	overflow-x: hidden;
+}
+
 /* ----- Footer ----- */
+
+footer { float: left; width: 100%; }
 
 .facebook_footer{
 	background: url('img/sprite.png') 0 72px;
@@ -65,6 +72,19 @@ Version: 1.0
 }
 .social{
 	margin-top: 16px;
+}
+
+footer .linha-preta
+{
+	float: left;
+	width: 100%;
+	height: 5px;
+	background-color: #000;
+}
+
+footer .container 
+{
+    padding: 30px 0px;
 }
 
 /*------- end Footer -------*/
@@ -186,4 +206,218 @@ div.virgula
     float: left;
     text-align: center;
     margin-top: -5px;
+}
+
+/************************************************** Instagram */
+
+.instagram .listra-laranja 
+{
+    width: 100%;
+    height: 5px;
+    background-color: #ED9400;
+}
+
+.instagram .head 
+{
+    background-color: #000;
+    float: left;
+    width: 100%;
+}
+
+.instagram img.logo-instagram
+{
+    float: left;
+}
+
+.instagram h2
+{
+    float: left;
+    margin-left: 30px;
+}
+
+.instagram .centro
+{
+	width: 340px;
+    margin: 40px auto;
+}
+
+.instagram .foto
+{
+	width: 19.2%;
+	margin-left: 1%;
+	float: left
+}
+
+.instagram .foto:first-child
+{
+	margin-left: 0;
+}
+
+/************************************************** Downloads */
+
+.downloads 
+{
+    float: left;
+    width: 100%;
+}
+
+.downloads .faixa-azul 
+{
+    float: left;
+    width: 100%;
+    height: 5px;
+    background-color: #59C0EA;
+}
+
+.downloads .head 
+{
+    float: left;
+    width: 100%;
+    background-color: #000;
+}
+
+.downloads h2 
+{
+    text-align: center;
+}
+
+.downloads .wallpaper 
+{
+    height: 410px;
+    background-size: cover;
+    text-align: center;
+}
+
+.downloads .player 
+{
+    background-color: #DE007E;
+}
+
+.downloads .player .titulo 
+{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 25px;
+}
+
+.downloads .player .nota-musical 
+{
+    text-align: center;
+}
+
+.downloads .player .nota-musical img 
+{
+    margin-left: -10px;
+}
+
+.downloads .play 
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+a.transparent-link
+{
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 5px 44px;
+    color: #fff;
+    
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    -webkit-transition: background-color 0.1s ease-in, color 0.1s ease-in;
+    -o-transition: background-color 0.1s ease-in, color 0.1s ease-in;
+    transition: background-color 0.1s ease-in, color 0.1s ease-in;
+}
+
+a.transparent-link:hover 
+{
+    background-color: #fff;
+    color: #DE007E !important;
+    text-decoration: none;
+}
+
+.downloads .download 
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+a.white-link
+{
+    font-size: 15px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 25px;
+    
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+}
+
+a.white-link:hover
+{
+	text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 9px 24px;
+    color: #fff;
+}
+
+.downloads .tipo 
+{
+    font-size: 30px;
+    margin: 30% 0 20% 0;
+}
+
+.downloads .wallpaper * { opacity: 0; }
+.downloads .wallpaper:hover * { opacity: 1; }
+
+/************************************************** Making-of */
+
+.making-of 
+{
+    float: left;
+    width: 100%;
+}
+
+.making-of .faixa-rosa 
+{
+    float: left;
+    width: 100%;
+    height: 5px;
+    background-color: #DE007E;
+}
+
+.making-of .head 
+{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    float: left;
+    width: 100%;
+}
+
+.making-of h2.titulo 
+{
+    margin: 30px 0;
+}
+
+.making-of .foto 
+{
+    height: 410px;
+    background-size: cover;
+}
+
+.making-of .fundo 
+{
+    background-color: #1D1D1B;
 }

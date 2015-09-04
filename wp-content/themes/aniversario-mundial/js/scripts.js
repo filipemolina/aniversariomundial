@@ -1,16 +1,24 @@
+// Retornar o jQuery para a sua utilização normal
+
+var $ = jQuery;
+
+// Atualizar as fotos mais recentes com a hashtag do aniversário mundial
+
 function Log(dados)
 {
-	for(foto in dados.data)
-	{
-		console.log(dados.data[foto]);
-	}
+
+	var url = '';
+
+	for (var i = 0; i < 5; i++) {
+		
+		url = dados.data[i].images.standard_resolution.url;
+		
+		$('div.fotos .container-fluid .row').append('<div class="foto"><img class="img-responsive" src="'+url+'" alt=""></div>');
+
+	};
 }
 
-jQuery(function(){
-
-	// Retornar o jQuery para a sua utilização normal
-
-	var $ = jQuery;
+jQuery(function(){	
 
 	$('.slider').fractionSlider({
 		'fullWidth': 			true,
