@@ -106,6 +106,7 @@ footer .container
 .navbar-inverse
 {
 	border-radius: 0;
+    z-index: 999999;
 }
 
 .navbar-brand
@@ -118,6 +119,16 @@ footer .container
 {
 	font-size: 15px;
 	margin-top: 15px; 
+}
+
+button.navbar-toggle.collapsed 
+{
+    margin-top: 25px;
+}
+
+button.navbar-toggle 
+{
+    margin-top: 25px;
 }
 
 /************************************************** Banner de Ofertas */
@@ -420,4 +431,84 @@ a.white-link:hover
 .making-of .fundo 
 {
     background-color: #1D1D1B;
+}
+
+/************************************************** Making-of */
+
+input.wpmltext 
+{
+    float: left;
+    max-width: 300px;
+}
+
+input.button.btn.btn-primary 
+{
+    float: left;
+    position: absolute;
+    top: 27%;
+    left: 57%;
+    background-color: #fff;
+    color: #9c9c9b;
+    border-color: #9c9c9b;
+    border-radius: 37px;
+    height: 44px;
+}
+
+.mailing .clearfix 
+{
+    clear: none;
+}
+
+div.newsletters-submit 
+{
+    float: left;
+    position: absolute;
+    right: 35%;
+    top: 42%;
+}
+
+.col-md-6.mailing 
+{
+    margin: 50px 0px;
+}
+
+.fb-like.fb_iframe_widget 
+{
+    margin-top: 14%;
+    float: left;
+}
+
+div#___ytsubscribe_0 
+{
+    float: left !important;
+    margin-top: 13.5% !important;
+    margin-left: 10px !important;
+}
+
+span.ig-follow 
+{
+    float: left;
+    margin-top: 13.75%;
+    margin-left: 15px;
+}
+
+/*************************** Até 901 Pixels */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .navbar-inverse .navbar-nav>li>a
+    {
+        font-size: 12px; 
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .navbar-inverse .navbar-nav>li>a
+    {
+        text-align: center;
+    }
+
 }

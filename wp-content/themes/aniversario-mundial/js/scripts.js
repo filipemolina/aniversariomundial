@@ -18,7 +18,32 @@ function Log(dados)
 	};
 }
 
-jQuery(function(){	
+jQuery(function(){
+
+	/////////////////////////////////// Menu
+
+	$('.navbar ul a').click(function(){
+
+		// Rolar até a seção desejada
+
+		var section = $(this).data('section');
+
+		
+	    $('html, body').animate({
+	        scrollTop: $("."+section).offset().top - 82
+	    }, 500);
+
+
+		// Fechar o menu caso esteja no modo de visualização mobile
+
+		if($(".navbar-toggle").css('display') != 'none')
+		{
+			$(".navbar-toggle").click();
+		}
+
+	});
+
+	/////////////////////////////////// Slider
 
 	$('.slider').fractionSlider({
 		'fullWidth': 			true,

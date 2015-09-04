@@ -50,6 +50,13 @@
 
 			<div class="navbar-header">
 
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+			    	<span class="sr-only">Toggle navigation</span>
+			    	<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+			    </button>
+
 				<a class="navbar-brand" href="#"><img alt="Logo" src="<?php bloginfo('template_url'); ?>/img/menu/logo.png"></a>
 
 			</div>
@@ -57,11 +64,11 @@
 			<div class="collapse navbar-collapse" id="menu-principal">
 				
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="" class="openSans branca bold">OFERTAS</a></li>
-					<li><a href="" class="openSans branca bold">CAMPANHA</a></li>
-					<li><a href="" class="openSans branca bold">#ÉHOJEMUNDIAL</a></li>
-					<li><a href="" class="openSans branca bold">DOWNLOADS</a></li>
-					<li><a href="" class="openSans branca bold">MAKING OF</a></li>
+					<li><a href="javascript:void(0)" data-section="banner" class="openSans branca bold">OFERTAS</a></li>
+					<li><a href="javascript:void(0)" data-section="video" class="openSans branca bold">CAMPANHA</a></li>
+					<li><a href="javascript:void(0)" data-section="instagram" class="openSans branca bold">#ÉHOJEMUNDIAL</a></li>
+					<li><a href="javascript:void(0)" data-section="downloads" class="openSans branca bold">DOWNLOADS</a></li>
+					<li><a href="javascript:void(0)" data-section="making-of" class="openSans branca bold">MAKING OF</a></li>
 				</ul>
 
 			</div>
