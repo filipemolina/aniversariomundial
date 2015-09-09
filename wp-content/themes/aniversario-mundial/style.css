@@ -6,6 +6,11 @@ Description: Hotsite de AniversÃ¡rio dos Supermercados Mundial
 Version: 1.0
 */
 
+html
+{
+    margin-top: 0px !important;
+}
+
 body
 {
 	overflow-x: hidden;
@@ -228,6 +233,12 @@ div.video
 }
 
 /************************************************** Instagram */
+
+div.instagram
+{
+    float: left;
+    width: 100%;
+}
 
 .instagram .listra-laranja 
 {
@@ -504,19 +515,139 @@ span.ig-follow
 
 @media (min-width: 768px) and (max-width: 991px){
 
+    /********************** Menu */
+
     .navbar-inverse .navbar-nav>li>a
     {
         font-size: 12px; 
         margin-top: 20px;
     }
 
+    /********************** Banner */
+
+    div.small
+    {
+        margin-top: 4px;
+        float: left;
+        margin-left: -7px;
+    }
+
+    div.reais
+    {
+        float: left;
+        margin-left: 3px;
+        margin-top: -11px;
+    }
+
+    div.virgula
+    {
+        float: left;
+        margin-left: 3px;
+        margin-top: -11px;
+    }
+
+    div.centavos
+    {
+        float: left;
+        font-size: 38px;
+        margin-top: -9px;
+    }
+
+    div.banner h2 
+    {
+        width: 434px;
+        text-align: center;
+        position: absolute;
+        left: 45%;
+        top: 105px;
+        font-size: 39px;
+        opacity: 0.85;
+    }
+
 }
 
+/*************************** Até 767 Pixels */
+
 @media (max-width: 767px){
+
+    /************************ Menu */
 
     .navbar-inverse .navbar-nav>li>a
     {
         text-align: center;
+    }
+
+    /************************ Banner */
+
+    div.small
+    {
+        margin-top: 3px;
+        float: left;
+        margin-left: -7px;
+    }
+
+    div.reais
+    {
+        float: left;
+        margin-left: 4px;
+        margin-top: -13px;
+    }
+
+    div.virgula 
+    {
+        float: left;
+        margin-top: -14px;
+    }
+
+    div.centavos
+    {
+        float: left;
+        margin-top: -9px;
+    }
+
+    div.banner h2 
+    {
+        width: 367px;
+        text-align: center;
+        position: absolute;
+        left: 45%;
+        top: 96px;
+        font-size: 28px;
+        opacity: 0.85;
+    }
+
+}
+
+/****************************** Até 560 Pixels */
+
+@media (max-width: 560px){
+
+    /*********************** Banner */
+
+    div.small
+    {
+        margin-top: -10px;
+        float: left;
+        margin-left: -13px;
+    }
+
+    div.reais
+    {
+        float: left;
+        margin-left: -1px;
+        margin-top: -23px;
+    }
+
+    div.virgula
+    {
+        float: left;
+        margin-top: -24px;
+    }
+
+    div.centavos
+    {
+        float: left;
+        margin-top: -20px;
     }
 
 }

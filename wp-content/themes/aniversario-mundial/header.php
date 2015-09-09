@@ -27,6 +27,15 @@
   <![endif]-->
 
   <?php wp_head(); ?>
+
+  <style type="text/css">
+
+	html
+	{
+		margin-top: 0px !important;
+	}
+
+  </style>
 </head>
 
 <body>

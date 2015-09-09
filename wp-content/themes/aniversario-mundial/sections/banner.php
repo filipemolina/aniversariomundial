@@ -31,19 +31,8 @@
 		$ofertas[$i]['titulo'] = types_render_field('titulo');
 		$ofertas[$i]['subtitulo'] = types_render_field('subtitulo');
 		$ofertas[$i]['imagem'] = types_render_field('imagem', array('raw' => 'true'));
-
-		// A variável 'preco' será tratada antes de ir para o vetor
-
-		$preco = types_render_field('preco');
-
-		// Retorna uma parte da string de preço, começando na posição 0 e terminando na posição onde se encontra a vírgula
-
-		$ofertas[$i]['reais'] = substr($preco, 0, strpos($preco, ','));
-
-		// Retorna uma parte da string de preço, começando uma posição depois de onde se encontra a vírgula
-
-		$ofertas[$i]['centavos'] = substr($preco, strpos($preco, ',') + 1);
-
+		$ofertas[$i]['largura'] = types_render_field('largura');
+		$ofertas[$i]['altura'] = types_render_field('altura');
 
 		// Incrementar o contador
 
@@ -74,24 +63,12 @@
 				<!-- Foto do Produto -->
 
 				<img 	src="<?php echo $oferta['imagem']; ?>"
-						width="307" height="200"
-						data-position="270,482" data-in="right" data-step="0" data-out="right" data-delay="0">
+						width="<?php echo $oferta['largura']; ?>" height="<?php echo $oferta['altura']; ?>"
+						data-position="200,322" data-in="right" data-step="0" data-out="right" data-delay="0">
 
 				<!-- Preço do Produto -->
 
-				<div class="preco" data-position="270,872" data-in="right" data-step="0" data-out="right" data-delay="0">
-
-					<div class="valor">
-						<div class="small">R$</div>
-						<div class="reais"><?php echo $oferta['reais']; ?></div>
-						<div class="virgula">,</div>
-						<div class="centavos"><?php echo $oferta['centavos']; ?></div>
-						<div style="clear: both;"></div>
-					</div>
-
-				</div>
-
-				<div class="nome" data-position="510,500" data-in="right" data-step="0" data-out="right" data-delay="0">
+				<div class="nome" data-position="510,500" data-in="right" data-step="0" data-out="down" data-delay="0">
 					<div class="titulo openSans preta"><?php echo $oferta['titulo'] ?></div>
 					<div class="subtitulo openSans preta"><?php echo $oferta['subtitulo'] ?></div>
 				</div>
